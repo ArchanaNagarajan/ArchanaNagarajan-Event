@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+  <body>
+    <form action ="/index1.html">
+    NAME <b>&nbsp&nbsp&nbsp&nbsp</b><input type="text" name="name"><br><br/>
+    MOBILE NUMBER <input type="text" name="num"><br><br/>
+    <input type="submit" value="Login" id="click"> 
+ <input type="reset" value="Reset">
+    </form>
+  </body>
+  <script>
+  var submit = document.getElementById("click");
+  submit.addEventListener("click",funct);
+  function funct(){
+	  alert("You have logged in");
+  }
+  </script>
+</html>
